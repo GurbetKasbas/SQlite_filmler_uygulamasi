@@ -47,7 +47,7 @@ Future<List<Kategoriler>> tumKategorileriGoster() async{
                 var kategori = kategoriListesi[index];
                 return GestureDetector(
                   onTap: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=> FilmlerSayfa()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=> FilmlerSayfa(kategori: kategori,)));
                   },
                   child: Padding(
                     padding: const EdgeInsets.only(top:18.0),
