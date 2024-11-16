@@ -1,16 +1,9 @@
-# film_uygulamasi
+<h1>Sqlite Film Uygulaması</h1>
+<p>Uygulama, VS Code kullanılarak geliştirilmiş ve SQLite veritabanı ile entegrasyon sağlanmıştır. SQLite, uygulamada film verilerini depolamak için kullanılır. Kullanıcılar, kategoriler üzerinden filmleri görüntüleyip detaylarına ulaşırken, veritabanı işlemleri sqflite paketiyle yönetilir. Bu sayede veriler hızlı ve verimli bir şekilde erişilip işlenir..</p>
 
-A new Flutter project.
+<div style="display: flex; justify-content: space-between;">
+    <img src="assets/images/readme1.png" alt="image 1" style="width: 25%; height: auto;">
+    <img src="assets/images/readme2.png" alt="image 2" style="width: 25%; height: auto;">
+    <img src="assets/images/readme3.png" alt="image 3" style="width: 25%; height: auto;">
+</div>
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
