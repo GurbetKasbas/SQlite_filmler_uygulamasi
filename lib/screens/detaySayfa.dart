@@ -16,13 +16,14 @@ class _DetaySayfaState extends State<DetaySayfa> {
   Widget build(BuildContext context) {
     return  Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.indigoAccent,
         title: Text(widget.film.film_ad),
       ),
       body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              Image.asset("assets/images/${widget.film.film_resim}"),
+              Image.asset("assets/images/${widget.film.film_resim}.png"),
               Text(widget.film.film_yil.toString() , style: TextStyle(fontSize: 30),),
               Text(widget.film.yonetmen.yonetmen_ad , style: TextStyle(fontSize: 30),)
             ],
